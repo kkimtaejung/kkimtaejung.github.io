@@ -33,8 +33,7 @@ breadcrumbs.html %} {% endunless %} {% endif %}
     />{% endif %}
 
     <div class="page__inner-wrap">
-      {% include top-banner.html %} {% unless page.header.overlay_color or
-      page.header.overlay_image %}
+      {% unless page.header.overlay_color or page.header.overlay_image %}
       <header>
         {% if page.title %}
         <h1 id="page-title" class="page__title p-name" itemprop="headline">

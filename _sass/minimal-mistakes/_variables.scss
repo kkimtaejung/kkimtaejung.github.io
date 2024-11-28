@@ -14,7 +14,7 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Sunflower", "Roboto",
+$sans-serif: -apple-system, BlinkMacSystemFont, "Gowun Batang", "Roboto",
   "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
@@ -71,9 +71,9 @@ $form-background-color: $lighter-gray !default;
 $footer-background-color: $lighter-gray !default;
 
 $primary-color: #6f777d !default;
-$success-color: #3fa63f !default;
+$success-color: #f0f0f0 !default;
 $warning-color: #d67f05 !default;
-$danger-color: #ee5f5b !default;
+$danger-color: #000000 !default;
 $info-color: #3b9cba !default;
 $focus-color: $primary-color !default;
 $active-color: mix(#fff, $primary-color, 80%) !default;
@@ -148,7 +148,7 @@ $small: 600px !default;
 $medium: 768px !default;
 $medium-wide: 900px !default;
 $large: 1024px !default;
-$x-large: 1280px !default;
+$x-large: 1480px !default;
 $max-width: $x-large !default;
 
 /*
