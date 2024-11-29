@@ -68,34 +68,42 @@ author_profile: true
   /* 카테고리 스타일 */
   .category-container {
     display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 30px;
+    justify-content: space-around; /* 균등 배치 */
+    align-items: center;
+    gap: 20px; /* 간격 조정 */
+    margin-top: 40px;
+    padding: 20px;
   }
 
   .category-item {
     text-align: center;
-    font-size: var(--font-size, 18px);
+    font-size: 18px;
+    color: #ffffff; /* 텍스트 색상 */
+    border-radius: 10px; /* 둥근 테두리 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+    padding: 20px 30px; /* 내부 여백 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 마우스 효과 */
+    width: 150px; /* 고정 너비 */
+  }
+
+  .category-item:hover {
+    transform: scale(1.05); /* 확대 효과 */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* 그림자 강조 */
   }
 
   .category-item a {
     text-decoration: none;
-    color: #aaa;
-    font-size: var(--category-text-size, 32px); /* 텍스트 크기 조정 가능 */
+    color: #ffffff; /* 텍스트 색상 */
+    font-size: 20px; /* 텍스트 크기 */
     font-weight: bold;
-    transition: color 0.3s;
-  }
-
-  .category-item a:hover {
-    color: #005f99;
+    display: block;
   }
 
   .category-item a span {
-    font-size: 96px;
+    font-size: 48px; /* 아이콘 크기 */
     display: block;
-    color: #666;
-    margin-bottom: 10px;
-  }
+    color: #f39c12; /* 아이콘 색상 (오렌지톤) */
+    margin-bottom: 10px; /* 아이콘과 텍스트 사이 간격 */
 </style>
 
 <div class="profile-container">
