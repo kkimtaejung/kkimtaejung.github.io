@@ -16,9 +16,9 @@ minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon
 
 # Site Settings
 locale: "ko-KR"
-title: "Jungtae's Blog"
+title: "K.Taejung Blog"
 title_separator: "|"
-subtitle: "Life is collections of neurons" # site tagline that appears below site title in masthead
+subtitle: "계획을 수립하고 유지한다는건 대단한 일이다." # site tagline that appears below site title in masthead
 name: "Kimtaejung"
 #description: "대학  원생의 하루를 정리하는 블로그 입니다"
 url: "https://teddynote.github.io"
@@ -109,6 +109,15 @@ author:
   location: "South Korea"
   email: "flejdkflel@naver.com"
   links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kkimtaejung"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/jung_tae_k"
+    - label: "Tistory"
+      icon: "fas fa-fw fa-link"
+      url: "https://input-thinking-output.tistory.com/"
     #- label: "Email"
     #  icon: "fas fa-fw fa-envelope-square"
     #  url: "flejdkflel@naver.com"
