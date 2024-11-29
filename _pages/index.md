@@ -104,64 +104,6 @@ author_profile: true
     display: block;
     color: #f39c12; /* 아이콘 색상 (오렌지톤) */
     margin-bottom: 10px; /* 아이콘과 텍스트 사이 간격 */
-
-    /* 타임라인 스타일 */
-  .timeline {
-    position: relative;
-    margin: 50px auto;
-    width: 80%;
-    max-width: 1000px;
-  }
-
-  .timeline::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 4px;
-    height: 100%;
-    background-color: #f39c12;
-    transform: translateX(-50%);
-  }
-
-  .timeline-item {
-    position: relative;
-    margin: 20px 0;
-    width: calc(50% - 40px); /* 양쪽 여백 */
-    padding: 20px;
-    background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-
-  .timeline-item.left {
-    left: 0;
-    margin-left: auto;
-    transform: translateX(-110%);
-  }
-
-  .timeline-item.right {
-    right: 0;
-    margin-right: auto;
-    transform: translateX(110%);
-  }
-
-  .timeline-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 15px;
-  }
-
-  .timeline-item h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
-  }
-
-  .timeline-item p {
-    font-size: 16px;
-    line-height: 1.6;
-  }
 </style>
 
 <div class="profile-container">
@@ -197,23 +139,5 @@ author_profile: true
       <span>☀️</span>
       Daily
     </a>
-  </div>
-</div>
-
-<div class="timeline">
-  <div class="timeline-item left">
-    <img src="/images/project1.jpg" alt="Project 1">
-    <h3>프로젝트 1</h3>
-    <p>이 프로젝트는 인공지능과 로보틱스를 활용한 연구로, 최첨단 기술을 바탕으로 진행되었습니다.</p>
-  </div>
-  <div class="timeline-item right">
-    <img src="/images/project2.jpg" alt="Project 2">
-    <h3>프로젝트 2</h3>
-    <p>창업 아이템 개발 프로젝트로 스마트 홈 기술과 통합된 AI 로봇 플랫폼을 제작했습니다.</p>
-  </div>
-  <div class="timeline-item left">
-    <img src="/images/project3.jpg" alt="Project 3">
-    <h3>프로젝트 3</h3>
-    <p>딥러닝 기반 영상 처리 연구로, 고해상도 복원 기술을 탐구한 프로젝트입니다.</p>
   </div>
 </div>
