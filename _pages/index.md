@@ -9,13 +9,13 @@ author_profile: true
   /* 프로필 영역 스타일 */
   .profile-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* 상단 정렬 */
     margin-bottom: 30px;
-    margin-top: 00px;
+    margin-top: 20px;
   }
 
   .profile-container img {
-    border-radius: 50%; /* 둥근 이미지 */
+    border-radius: 20%; /* 둥근 이미지 */
     width: 165px; /* 프로필 사진 크기 */
     height: 210px;
     margin-right: 20px;
@@ -24,6 +24,16 @@ author_profile: true
 
   .profile-details {
     font-size: var(--profile-font-size, 18px);
+    line-height: 3; /* 줄 간격 */
+  }
+
+    .profile-details strong {
+    font-weight: bold; /* 강조 */
+  }
+
+  .profile-details span {
+    display: block; /* 각 항목을 블록으로 나눔 */
+    margin-bottom: 8px; /* 항목 간격 */
   }
 
   /* 인용구 스타일 */
@@ -93,8 +103,9 @@ author_profile: true
   <div class="profile-details">
     <strong>이름:</strong> 김태정<br>
     <strong>직책:</strong> 석사과정 및 예비창업자<br>
-    <strong>이메일:</strong> ktaejung@chungbuk.ac.kr<br>
+    <strong>공식 이메일:</strong> ktaejung@chungbuk.ac.kr<br>
     <strong>약력:</strong> 충북대학교 졸업, ROBOTICS 연구실 석사과정
+    
   </div>
 </div>
 
