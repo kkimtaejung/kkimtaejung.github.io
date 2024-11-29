@@ -105,7 +105,7 @@ author_profile: true
     color: #f39c12; /* 아이콘 색상 (오렌지톤) */
     margin-bottom: 10px; /* 아이콘과 텍스트 사이 간격 */
 
-    /* 메인 프로젝트 섹션 스타일 */
+    /* 타임라인 스타일 */
   .timeline {
     position: relative;
     margin: 50px auto;
@@ -127,7 +127,7 @@ author_profile: true
   .timeline-item {
     position: relative;
     margin: 20px 0;
-    width: calc(50% - 20px);
+    width: calc(50% - 40px); /* 양쪽 여백 */
     padding: 20px;
     background: #ffffff;
     border-radius: 10px;
@@ -137,13 +137,13 @@ author_profile: true
   .timeline-item.left {
     left: 0;
     margin-left: auto;
-    transform: translateX(-10%);
+    transform: translateX(-110%);
   }
 
   .timeline-item.right {
     right: 0;
     margin-right: auto;
-    transform: translateX(10%);
+    transform: translateX(110%);
   }
 
   .timeline-item img {
