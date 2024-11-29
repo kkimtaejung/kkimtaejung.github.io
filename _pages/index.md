@@ -1,6 +1,5 @@
 ---
 layout: home
-title: "Home"
 permalink: /
 author_profile: true
 ---
@@ -12,18 +11,19 @@ author_profile: true
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 00px;
   }
 
   .profile-container img {
     border-radius: 50%; /* 둥근 이미지 */
-    width: 200px; /* 프로필 사진 크기 */
-    height: 260px;
+    width: 165px; /* 프로필 사진 크기 */
+    height: 210px;
     margin-right: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 그림자 추가 */
   }
 
   .profile-details {
-    font-size: var(--profile-font-size, 24px);
+    font-size: var(--profile-font-size, 18px);
   }
 
   /* 인용구 스타일 */
