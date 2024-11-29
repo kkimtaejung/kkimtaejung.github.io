@@ -107,7 +107,6 @@ author:
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "Chungbuk University ROBOTICS Lab 'Master course'"
   location: "South Korea"
-  email: "flejdkflel@naver.com"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -118,6 +117,9 @@ author:
     - label: "Tistory"
       icon: "fas fa-fw fa-link"
       url: "https://input-thinking-output.tistory.com/"
+    - label: "Notion"
+      icon: "fas fa-fw fa-link"
+      url: "https://jungtaek.notion.site/"
     #- label: "Email"
     #  icon: "fas fa-fw fa-envelope-square"
     #  url: "flejdkflel@naver.com"
