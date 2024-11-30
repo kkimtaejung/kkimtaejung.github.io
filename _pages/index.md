@@ -5,41 +5,43 @@ author_profile: true
 ---
 
 <style>
-
   /* 프로필 영역 스타일 */
   .profile-container {
     display: flex;
-    align-items: flex-start; /* 상단 정렬 */
+    align-items: flex-start;
     margin-bottom: 30px;
     margin-top: 20px;
+    flex-wrap: wrap; /* 모바일에서 줄바꿈 가능 */
   }
 
   .profile-container img {
-    border-radius: 20%; /* 둥근 이미지 */
-    width: 165px; /* 프로필 사진 크기 */
-    height: 210px;
+    border-radius: 20%;
+    width: 150px; /* 프로필 사진 크기 조정 */
+    height: auto; /* 비율 유지 */
     margin-right: 20px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 그림자 추가 */
+    margin-bottom: 20px; /* 모바일에서 간격 추가 */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
 
   .profile-details {
     font-size: var(--profile-font-size, 18px);
-    line-height: 3; /* 줄 간격 */
+    line-height: 1.8; /* 줄 간격 */
+    flex: 1; /* 내용이 사진 옆에 자연스럽게 위치 */
   }
 
-    .profile-details strong {
-    font-weight: bold; /* 강조 */
+  .profile-details strong {
+    font-weight: bold;
   }
 
   .profile-details span {
-    display: block; /* 각 항목을 블록으로 나눔 */
-    margin-bottom: 8px; /* 항목 간격 */
+    display: block;
+    margin-bottom: 8px;
   }
 
   /* 인용구 스타일 */
   .blockquote {
-    font-size: 32px;
-    line-height: 2.4;
+    font-size: 24px; /* 크기 조정 */
+    line-height: 1.6;
     font-style: italic;
     color: #888;
     text-align: center;
@@ -68,42 +70,63 @@ author_profile: true
   /* 카테고리 스타일 */
   .category-container {
     display: flex;
-    justify-content: space-around; /* 균등 배치 */
-    align-items: center;
-    gap: 20px; /* 간격 조정 */
+    justify-content: space-around;
+    flex-wrap: wrap; /* 모바일에서 줄바꿈 가능 */
+    gap: 20px; /* 간격 추가 */
     margin-top: 40px;
     padding: 20px;
   }
 
   .category-item {
     text-align: center;
-    font-size: 18px;
-    color: #ffffff; /* 텍스트 색상 */
-    border-radius: 10px; /* 둥근 테두리 */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
-    padding: 20px 30px; /* 내부 여백 */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 마우스 효과 */
-    width: 350px; /* 고정 너비 */
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: calc(100% / 3 - 20px); /* 기본 데스크톱용 너비 */
   }
 
   .category-item:hover {
-    transform: scale(1.05); /* 확대 효과 */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* 그림자 강조 */
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
   }
 
   .category-item a {
     text-decoration: none;
-    color: #ffffff; /* 텍스트 색상 */
-    font-size: 20px; /* 텍스트 크기 */
+    color: #ffffff;
+    font-size: 18px;
     font-weight: bold;
     display: block;
   }
 
   .category-item a span {
-    font-size: 48px; /* 아이콘 크기 */
+    font-size: 36px; /* 아이콘 크기 조정 */
     display: block;
-    color: #f39c12; /* 아이콘 색상 (오렌지톤) */
-    margin-bottom: 10px; /* 아이콘과 텍스트 사이 간격 */
+    color: #f39c12;
+    margin-bottom: 10px;
+  }
+
+  /* 반응형 스타일 */
+  @media (max-width: 768px) {
+    .profile-container {
+      flex-direction: column; /* 모바일에서 세로 배치 */
+      align-items: center; /* 가운데 정렬 */
+    }
+
+    .profile-container img {
+      margin-right: 0; /* 마진 제거 */
+    }
+
+    .category-item {
+      width: calc(100% - 40px); /* 모바일에서 전체 너비 사용 */
+    }
+
+    .blockquote {
+      font-size: 20px; /* 모바일에서 크기 줄임 */
+    }
+  }
 </style>
 
 <div class="profile-container">
@@ -113,7 +136,6 @@ author_profile: true
     <strong>직책:</strong> 석사과정 및 예비창업자<br>
     <strong>공식 이메일:</strong> ktaejung@chungbuk.ac.kr<br>
     <strong>약력:</strong> 충북대학교 졸업, ROBOTICS 연구실 석사과정
-    
   </div>
 </div>
 
