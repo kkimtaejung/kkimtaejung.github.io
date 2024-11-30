@@ -83,7 +83,7 @@ author_profile: true
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
     padding: 20px 30px; /* 내부 여백 */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* 마우스 효과 */
-    width: 150px; /* 고정 너비 */
+    width: 350px; /* 고정 너비 */
   }
 
   .category-item:hover {
@@ -141,4 +141,3 @@ author_profile: true
     </a>
   </div>
 </div>
-
