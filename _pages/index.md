@@ -1,9 +1,3 @@
----
-layout: home
-permalink: /
-author_profile: true
----
-
 <style>
   /* 프로필 영역 스타일 */
   .profile-container {
@@ -70,8 +64,8 @@ author_profile: true
   /* 카테고리 스타일 */
   .category-container {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; /* 모바일에서 줄바꿈 가능 */
+    flex-direction: column; /* 세로로 배치 */
+    align-items: center; /* 가운데 정렬 */
     gap: 20px; /* 간격 추가 */
     margin-top: 40px;
     padding: 20px;
@@ -85,7 +79,7 @@ author_profile: true
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: calc(100% / 3 - 20px); /* 기본 데스크톱용 너비 */
+    width: 80%; /* 세로 배치에서 중앙에 적절한 너비 */
   }
 
   .category-item:hover {
