@@ -1,3 +1,8 @@
+---
+layout: home
+permalink: /
+author_profile: true
+---
 <style>
   /* 프로필 영역 스타일 */
   .profile-container {
