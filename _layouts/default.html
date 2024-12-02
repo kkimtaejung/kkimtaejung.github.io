@@ -44,12 +44,28 @@
   <source src="/images/이수 (M.C the MAX) - Your Lights  가사.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
 <script>
-  // 오디오 자동 재생
   document.addEventListener('DOMContentLoaded', function () {
     const music = document.getElementById('background-music');
-    if (music) {
-      music.play();
+
+    // 이전 재생 위치를 가져옴
+    const savedTime = localStorage.getItem('music-current-time');
+    if (savedTime) {
+      music.currentTime = parseFloat(savedTime);
     }
+
+    // 음악 재생
+    music.play();
+
+    // 음악 재생 위치를 저장
+    music.addEventListener('timeupdate', function () {
+      localStorage.setItem('music-current-time', music.currentTime);
+    });
+
+    // 페이지를 떠날 때 음악 재생 중지 방지
+    window.addEventListener('beforeunload', function () {
+      localStorage.setItem('music-current-time', music.currentTime);
+    });
   });
 </script>
