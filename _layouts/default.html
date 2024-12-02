@@ -45,6 +45,11 @@
   Your browser does not support the audio element.
 </audio>
 
+<audio id="background-music" autoplay loop>
+  <source src="/images/이수 (M.C the MAX) - Your Lights  가사.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     const music = document.getElementById('background-music');
@@ -68,6 +73,28 @@
     // 사용자가 페이지를 떠날 때 재생 상태 유지
     window.addEventListener('beforeunload', function () {
       sessionStorage.setItem('music-current-time', music.currentTime);
+    });
+
+    // 영상 재생 시 음악 멈춤, 영상 중지 시 음악 재생
+    const videos = document.querySelectorAll('video');
+    videos.forEach(video => {
+      video.addEventListener('play', function () {
+        if (!music.paused) {
+          music.pause(); // 음악 멈춤
+        }
+      });
+
+      video.addEventListener('pause', function () {
+        if (music.paused) {
+          music.play(); // 음악 재생
+        }
+      });
+
+      video.addEventListener('ended', function () {
+        if (music.paused) {
+          music.play(); // 영상이 종료되면 음악 재생
+        }
+      });
     });
   });
 </script>
