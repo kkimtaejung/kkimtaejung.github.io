@@ -49,6 +49,10 @@
   document.addEventListener('DOMContentLoaded', function () {
     const music = document.getElementById('background-music');
 
+    // 이미 초기화되었는지 확인
+    if (music.dataset.initialized === "true") return;
+    music.dataset.initialized = "true"; // 중복 실행 방지 플래그 설정
+
     // 세션 내 이전 재생 위치 가져오기
     const savedTime = sessionStorage.getItem('music-current-time');
 
@@ -93,4 +97,5 @@
     });
   });
 </script>
+
 
