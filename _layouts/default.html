@@ -49,10 +49,25 @@
   document.addEventListener('DOMContentLoaded', function () {
     const music = document.getElementById('background-music');
 
-    // 음악 재생 시작
+    // 세션 내 이전 재생 위치 가져오기
+    const savedTime = sessionStorage.getItem('music-current-time');
+
+    if (savedTime) {
+      // 세션 내 재생 위치 복원
+      music.currentTime = parseFloat(savedTime);
+    }
+
+    // 음악 재생
     music.play();
 
-    // 재생 위치를 저장하지 않음 (사용자가 다시 들어오면 처음부터 재생)
-    // 음악 반복 재생은 loop 속성으로 처리
+    // 현재 재생 위치를 세션에 저장
+    music.addEventListener('timeupdate', function () {
+      sessionStorage.setItem('music-current-time', music.currentTime);
+    });
+
+    // 사용자가 페이지를 떠날 때 재생 상태 유지
+    window.addEventListener('beforeunload', function () {
+      sessionStorage.setItem('music-current-time', music.currentTime);
+    });
   });
 </script>
