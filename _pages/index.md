@@ -162,3 +162,13 @@ author_profile: true
     </a>
   </div>
 </div>
+
+<!-- 음악 재생을 위한 추가 -->
+<audio id="background-music" autoplay loop>
+  <source src="/images/이수 (M.C the MAX) - Your Lights  가사.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<script>
+  // 오디오 자동 재생
+  document.getElementById('background-music').play();
+</script>
