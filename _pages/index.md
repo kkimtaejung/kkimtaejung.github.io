@@ -172,12 +172,6 @@ author_profile: true
     <strong>직책:</strong> 석사과정 및 예비창업자<br>
     <strong>공식 이메일:</strong> ktaejung@chungbuk.ac.kr<br>
     <strong>약력:</strong> 충북대학교 졸업, ROBOTICS 연구실 석사과정
-    <div class="category-container">
-      <a href="https://github.com/kkimtaejung" >GitHub</a>
-      <a href="https://input-thinking-output.tistory.com/" >Tistory</a>
-      <a href="https://instagram.com/jung_tae_k" >Instagram</a>
-      <a href="https://jungtaek.notion.site/" >Notion</a>
-    </div>
   </div>
 </div>
 
