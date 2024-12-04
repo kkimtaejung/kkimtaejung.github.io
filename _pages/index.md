@@ -128,26 +128,42 @@ author_profile: true
   }
 
   /* 외부 링크 스타일 */
-  .external-links {
-    margin-top: 20px;
-  }
+.external-links {
+  display: flex;
+  flex-direction: column; /* 세로로 배치 */
+  align-items: center; /* 가운데 정렬 */
+  gap: 20px; /* 간격 추가 */
+  margin-top: 40px;
+  padding: 20px;
+}
 
-  .external-links a {
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    color: #f39c12;
-    background-color: #f39c12;
-    border-radius: 8px;
-    padding: 10px 20px;
-    margin-right: 10px;
-    transition: background-color 0.3s ease;
-  }
+.external-links a {
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 80%; /* 세로 배치에서 중앙에 적절한 너비 */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  background-color: #f39c12; /* 배경색 추가 */
+}
 
-  .external-links a:hover {
-    background-color: #f39c12;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-  }
+.external-links a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.external-links a span {
+  font-size: 36px; /* 아이콘 크기 조정 */
+  display: block;
+  color: #ffffff; /* 아이콘 색상 */
+  margin-bottom: 10px;
+}
 </style>
 
 <div class="profile-container">
