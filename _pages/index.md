@@ -66,7 +66,7 @@ author_profile: true
     right: -20px;
   }
 
-  /* 카테고리 스타일 */
+/* 카테고리 스타일 */
   .category-container {
     display: flex;
     flex-direction: column; /* 세로로 배치 */
@@ -78,33 +78,19 @@ author_profile: true
 
   .category-item {
     text-align: center;
-    font-size: 16px;
+    font-size: 20px; /* 글씨 크기 확대 */
     color: #ffffff;
+    background-color: #f39c12;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 15px 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
     width: 80%; /* 세로 배치에서 중앙에 적절한 너비 */
+    text-decoration: none; /* 링크 밑줄 제거 */
   }
 
   .category-item:hover {
+    background-color: #e67e22;
     transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-  }
-
-  .category-item a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: bold;
-    display: block;
-  }
-
-  .category-item a span {
-    font-size: 36px; /* 아이콘 크기 조정 */
-    display: block;
-    color: #f39c12;
-    margin-bottom: 10px;
   }
 
   /* 반응형 스타일 */
@@ -126,6 +112,26 @@ author_profile: true
       font-size: 20px; /* 모바일에서 크기 줄임 */
     }
   }
+
+  /* 외부 링크 스타일 */
+  .external-links {
+    margin-top: 20px;
+  }
+
+  .external-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #f39c12;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  .external-links a:hover {
+    background-color: #e67e22;
+  }
 </style>
 
 <div class="profile-container">
@@ -135,6 +141,12 @@ author_profile: true
     <strong>직책:</strong> 석사과정 및 예비창업자<br>
     <strong>공식 이메일:</strong> ktaejung@chungbuk.ac.kr<br>
     <strong>약력:</strong> 충북대학교 졸업, ROBOTICS 연구실 석사과정
+    <div class="external-links">
+      <a href="https://github.com/kkimtaejung" target="_blank">GitHub</a>
+      <a href="https://input-thinking-output.tistory.com/" target="_blank">Tistory</a>
+      <a href="https://instagram.com/jung_tae_k" target="_blank">Instagram</a>
+      <a href="https://jungtaek.notion.site/" target="_blank">Notion</a>
+    </div>
   </div>
 </div>
 
@@ -143,22 +155,7 @@ author_profile: true
 </div>
 
 <div class="category-container">
-  <div class="category-item">
-    <a href="/categories/research/">
-      <span>📝</span>
-      Research
-    </a>
-  </div>
-  <div class="category-item">
-    <a href="/categories/startup/">
-      <span>📈</span>
-      Startup
-    </a>
-  </div>
-  <div class="category-item">
-    <a href="/categories/daily/">
-      <span>☀️</span>
-      Daily
-    </a>
-  </div>
+  <a href="/categories/research/" class="category-item">Research</a>
+  <a href="/categories/startup/" class="category-item">Startup</a>
+  <a href="/categories/daily/" class="category-item">Daily</a>
 </div>
