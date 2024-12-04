@@ -126,43 +126,6 @@ author_profile: true
       font-size: 20px; /* 모바일에서 크기 줄임 */
     }
   }
-
-  /* 외부 링크 스타일 */
-  .external-links {
-    display: flex;
-    flex-direction: row; /* 가로로 배치 */
-    justify-content: center; /* 가운데 정렬 */
-    gap: 10px; /* 항목 간 간격 추가 */
-    margin-top: 20px;
-    padding: 10px;
-  }
-
-  .external-links a {
-      text-align: center;
-      font-size: 14px;
-      color: #ffffff; /* 텍스트 색상 */
-      border-radius: 6px; /* 모서리 둥글기 */
-      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-      padding: 10px 15px; /* 박스 크기 축소 */
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-      width: auto; /* 크기를 내용에 맞게 자동 설정 */
-      text-decoration: none;
-      background-color: #f39c12; /* 카테고리와 동일한 색상 */
-  }
-
-  .external-links a:hover {
-      transform: scale(1.1); /* 살짝 확대 */
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  }
-
-
-  .external-links a span {
-    font-size: 20px; /* 아이콘 크기 조정 */
-    display: block;
-    color: #ffffff; /* 아이콘 색상 */
-    margin-bottom: 5px;
-  }
-
 </style>
 
 <div class="profile-container">
@@ -174,7 +137,6 @@ author_profile: true
     <strong>약력:</strong> 충북대학교 졸업, ROBOTICS 연구실 석사과정
   </div>
 </div>
-
 
 <div class="blockquote">
   Consistency alone makes you a capable person.
