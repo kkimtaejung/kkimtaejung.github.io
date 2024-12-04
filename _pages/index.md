@@ -66,7 +66,7 @@ author_profile: true
     right: -20px;
   }
 
-/* 카테고리 스타일 */
+  /* 카테고리 스타일 */
   .category-container {
     display: flex;
     flex-direction: column; /* 세로로 배치 */
@@ -78,19 +78,33 @@ author_profile: true
 
   .category-item {
     text-align: center;
-    font-size: 20px; /* 글씨 크기 확대 */
+    font-size: 16px;
     color: #ffffff;
-    background-color: #f39c12;
     border-radius: 10px;
-    padding: 15px 20px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 80%; /* 세로 배치에서 중앙에 적절한 너비 */
-    text-decoration: none; /* 링크 밑줄 제거 */
   }
 
   .category-item:hover {
-    background-color: #e67e22;
     transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  }
+
+  .category-item a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+  }
+
+  .category-item a span {
+    font-size: 36px; /* 아이콘 크기 조정 */
+    display: block;
+    color: #f39c12;
+    margin-bottom: 10px;
   }
 
   /* 반응형 스타일 */
@@ -130,7 +144,8 @@ author_profile: true
   }
 
   .external-links a:hover {
-    background-color: #e67e22;
+    background-color: #f39c12;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
   }
 </style>
 
@@ -150,12 +165,28 @@ author_profile: true
   </div>
 </div>
 
+
 <div class="blockquote">
   Consistency alone makes you a capable person.
 </div>
 
 <div class="category-container">
-  <a href="/categories/research/" class="category-item">Research</a>
-  <a href="/categories/startup/" class="category-item">Startup</a>
-  <a href="/categories/daily/" class="category-item">Daily</a>
+  <div class="category-item">
+    <a href="/categories/research/">
+      <span>📝</span>
+      Research
+    </a>
+  </div>
+  <div class="category-item">
+    <a href="/categories/startup/">
+      <span>📈</span>
+      Startup
+    </a>
+  </div>
+  <div class="category-item">
+    <a href="/categories/daily/">
+      <span>☀️</span>
+      Daily
+    </a>
+  </div>
 </div>
