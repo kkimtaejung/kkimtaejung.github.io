@@ -138,22 +138,23 @@ author_profile: true
   }
 
   .external-links a {
-    text-align: center;
-    font-size: 14px;
-    color: #ffffff; /* 텍스트 색상 */
-    border-radius: 6px; /* 모서리 둥글기 */
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-    padding: 10px 15px; /* 박스 크기 축소 */
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    width: auto; /* 크기를 내용에 맞게 자동 설정 */
-    text-decoration: none;
-    background-color: #3498db; /* 카테고리와 동일한 파란색 */
+      text-align: center;
+      font-size: 14px;
+      color: #ffffff; /* 텍스트 색상 */
+      border-radius: 6px; /* 모서리 둥글기 */
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+      padding: 10px 15px; /* 박스 크기 축소 */
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      width: auto; /* 크기를 내용에 맞게 자동 설정 */
+      text-decoration: none;
+      background-color: #f39c12; /* 카테고리와 동일한 색상 */
   }
 
   .external-links a:hover {
-    transform: scale(1.1); /* 살짝 확대 */
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+      transform: scale(1.1); /* 살짝 확대 */
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
+
 
   .external-links a span {
     font-size: 20px; /* 아이콘 크기 조정 */
