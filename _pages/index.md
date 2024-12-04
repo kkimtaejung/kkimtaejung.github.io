@@ -135,7 +135,8 @@ author_profile: true
   .external-links a {
     text-decoration: none;
     font-size: 16px;
-    color: #ffffff;
+    font-weight: bold;
+    color: #f39c12;
     background-color: #f39c12;
     border-radius: 8px;
     padding: 10px 20px;
