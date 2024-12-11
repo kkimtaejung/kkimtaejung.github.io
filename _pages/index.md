@@ -141,24 +141,3 @@ author_profile: true
 <div class="blockquote">
   Consistency alone makes you a capable person.
 </div>
-
-<div class="category-container">
-  <div class="category-item">
-    <a href="/categories/research/">
-      <span>📝</span>
-      Research
-    </a>
-  </div>
-  <div class="category-item">
-    <a href="/categories/startup/">
-      <span>📈</span>
-      Startup
-    </a>
-  </div>
-  <div class="category-item">
-    <a href="/categories/daily/">
-      <span>☀️</span>
-      Daily
-    </a>
-  </div>
-</div>
