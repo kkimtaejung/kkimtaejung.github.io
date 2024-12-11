@@ -2,10 +2,11 @@
 main:
   - title: "Home"
     url: /
-  - title: "By Year"
-    url: /year-archive/
+  - title: "Categories"
+    url: /categories/
   - title: "Search"
     url: /search/
+    icon: "🔍" # 돋보기 기호 추가
 
 #docs:
 #  - title: "대목차"
