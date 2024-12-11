@@ -2,11 +2,16 @@
 main:
   - title: "Home"
     url: /
-  - title: "Categories"
-    url: /categories/
-  - title: "Search"
+  - title: "Research"
+    url: /categories/research/
+  - title: "Startup"
+    url: /categories/startup/
+  - title: "Daily"
+    url: /categories/daily/
+  - title: ""
     url: /search/
     icon: "🔍" # 돋보기 기호 추가
+
 
 #docs:
 #  - title: "대목차"
