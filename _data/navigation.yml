@@ -6,11 +6,10 @@ main:
     url: /categories/research/
   - title: "Startup"
     url: /categories/startup/
+  - title: "Exercise"
+    url: /categories/exercise/
   - title: "Daily"
     url: /categories/daily/
-  - title: ""
-    url: /search/
-    icon: "🔍" # 돋보기 기호 추가
 
 
 #docs:
