@@ -6,8 +6,8 @@ main:
     url: /categories/research/
   - title: "Startup"
     url: /categories/startup/
-  #- title: "Exercise"
-  #  url: /categories/exercise/
+  - title: "Exercise"
+    url: /categories/exercise/
   - title: "Daily"
     url: /categories/daily/
 
