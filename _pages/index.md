@@ -3,6 +3,7 @@ layout: home
 permalink: /
 author_profile: true
 ---
+
 <style>
   /* 프로필 영역 스타일 */
   .profile-container {
@@ -129,7 +130,7 @@ author_profile: true
 </style>
 
 <div class="profile-container">
-  <img src="/images/2023-09-26-first/증명사진20241125.jpg" alt="Profile Picture">
+  <img src="/images/블로그메인사진2.jpg" alt="Profile Picture">
   <div class="profile-details">
     <strong>이름:</strong> 김태정<br>
     <strong>직책:</strong> 석사과정 및 예비창업자<br>
