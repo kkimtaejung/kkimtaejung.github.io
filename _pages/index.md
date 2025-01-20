@@ -130,6 +130,7 @@ author_profile: true
 </style>
 
 <div class="profile-container">
+  <img src="/images/블로그메인사진2.jpg" alt="Profile Picture">
   <div class="profile-details">
     <strong>이름:</strong> 김태정<br>
     <strong>직책:</strong> 석사과정 및 예비창업자<br>
