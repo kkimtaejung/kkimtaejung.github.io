@@ -1,0 +1,74 @@
+---
+layout: archive
+---
+
+<style>
+  /* 카테고리 페이지 스타일 */
+  .category-page {
+    display: block; /* 세로 배치를 위해 블록 레이아웃으로 변경 */
+    margin: 20px 0;
+  }
+
+  .post-card {
+    width: 100%; /* 박스를 끝까지 늘림 */
+    padding: 15px; /* 내부 여백 */
+    margin-bottom: 20px; /* 박스 간 간격 */
+    border-radius: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer; /* 클릭 가능 커서 표시 */
+    display: flex;
+    flex-direction: column; /* 세로 정렬 */
+    align-items: flex-start; /* 글씨 좌측 정렬 */
+    justify-content: flex-start; /* 글씨 상단 정렬 */
+  }
+
+  .post-card:hover {
+    transform: scale(1.02); /* 살짝 확대 효과 */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .post-card a {
+    text-decoration: none;
+    color: inherit;
+    display: block; /* 링크를 전체 박스로 확장 */
+    width: 100%; /* 링크가 박스 전체 크기를 차지하도록 */
+  }
+
+  .post-card h2 {
+    font-size: 24px; /* 제목 크기 조정 */
+    margin: 0; /* 제목과 상단 여백 제거 */
+    padding: 0; /* 제목과 상단 여백 제거 */
+    color: #ffffff; /* 제목을 흰색으로 설정 */
+    text-align: left; /* 제목 좌측 정렬 */
+  }
+
+  .post-card p {
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 4px; /* 본문과 제목 사이 여백 감소 */
+    text-align: left; /* 본문 좌측 정렬 */
+  }
+
+  .post-card small {
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 6px; /* 날짜와 본문 사이 여백 감소 */
+    text-align: left; /* 날짜 좌측 정렬 */
+  }
+</style>
+
+<div class="category-page">
+  {% assign category_posts = site.posts | where: "categories", page.title %} {%
+  if category_posts.size > 0 %} {% for post in category_posts %}
+  <div class="post-card">
+    <a href="{{ post.url }}">
+      <h2>{{ post.title }}</h2>
+      <p>{{ post.excerpt }}</p>
+      <small>{{ post.date | date: "%Y-%m-%d" }}</small>
+    </a>
+  </div>
+  {% endfor %} {% else %}
+  <p>이 카테고리에 해당하는 글이 없습니다.</p>
+  {% endif %}
+</div>

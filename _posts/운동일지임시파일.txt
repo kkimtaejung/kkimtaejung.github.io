@@ -1,0 +1,316 @@
+---
+title: "Health (2016 - 2024)"
+layout: single
+categories: exercise
+tag: [python, blog, jekyll]
+typora-root-url: ../
+author_profile: true
+search: true
+toc: true
+comments: true
+#sidebar:
+#  nav: "counts"
+---
+
+<style>
+@media (max-width: 768px) {
+  /* Flex 컨테이너의 이미지가 부모 크기에 맞게 조정 */
+  div[style*="display: flex;"] img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Flex 컨테이너의 영상이 부모 크기에 맞게 조정 */
+  div[style*="display: flex;"] video {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Grid 이미지는 이미 반응형으로 설정되어 있으므로 추가 수정 불필요 */
+  img[style*="width: 415px;"] {
+    width: 100%;
+    height: auto;
+  }
+
+  /* 영상도 화면 크기에 맞게 조정 */
+  video {
+    max-width: 100%;
+    height: auto;
+    display: block; /* 중앙 정렬 문제 방지 */
+  }
+
+  /* 모바일에서 글씨 크기 조정 */
+  body {
+    font-size: 14px; /* 본문 폰트 크기 줄임 */
+    line-height: 1.6; /* 읽기 편한 줄 간격 유지 */
+  }
+  h2 span[style*="font-size: 36px;"] {
+    font-size: 18px; /* 중간 제목 글씨 크기 줄임 */
+  }
+  h2 span[style*="font-size: 48px;"] {
+    font-size: 24px; /* 큰 제목 글씨 크기 줄임 */
+  }
+  div[style*="font-size: 18px;"] {
+    font-size: 5px; /* 본문 글씨 크기 줄임 */
+    line-height: 1.4; /* 줄 간격 조정 */
+  }
+  span[style*="font-size: 16px;"] {
+    font-size: 4px; /* 제목 폰트 크기 조정 */
+  }
+}
+</style>
+
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+
+  <div style="width: 48%;">
+    <h2><span style="font-size: 36px; font-weight: bold;">Exercise</span></h2>
+    <img src="/images/2023-09-26-first/연구일지1/고민중.jpg" alt="CANVAS" style="border-radius: 20%; width: 150px; padding: 5px;">
+  </div>
+
+  <div style="width: 48%;">
+    <h2><span style="font-size: 36px; font-weight: bold;">Contents</span></h2>
+    <ol>
+      <li>Motivation</li>
+      <li>Bulk up</li>
+      <li>1RM</li>
+      <li>Diet & Cutting</li>
+      <li>Body profile</li>
+    </ol>
+  </div>
+
+</div>
+
+## <span style="font-size: 48px; font-weight: bold;">Motivation</span>
+
+<div style="font-size: 18px; line-height: 1.6;">
+    16살 고등학생이 되기까지 격투기 관련 운동을 쉬지않고 꾸준히 해왔고, 태권도, 검도, 복싱 등 총합 10년 이상을 배웠다. 그러다보니 타고난 운동신경과 더불어 몸의 패턴이나 성향이 운동에 맞춰져 있었다.
+    <br><br>
+    16살때 사고로 인해 두 다리가 부러지고, 1년간 누워지내게 되면서 근육이 많이 녹게 되었고, 재활을 위해 헬스라는 운동을 접하게 되었다. 2016년은 헬스라는 운동이 유행을 타기 시작한 시기였다.
+    <br><br>
+    성인이 되기까지는 수험생 생활로 인해 인생 처음이자 마지막 PT 를 받고서는 맨몸운동을 병행하며 다치고 깔리면서 스스로한테 맞는 운동법을 알아가는 과정이었다.
+    <br><br>
+    성인이 될 즈음 재활치료 목적도 마무리되었고 3대 300정도의 무게도 치게 될 무렵, 헬스라는 운동을 왜 해야하는지에 대한 깊은 고민을 하게되었고, 3가지의 과정을 거치면서 얻게 된 점을 기록하고자 한다.
+</div>
+
+## <span style="font-size: 48px; font-weight: bold;">Bulk up</span>
+
+<div style="font-size: 16px; line-height: 1.6; color: gray;">
+  <blockquote>
+    <br>💡 Bulk up 이란 <span style="background-color: gray; color: white;">몸을 건강하게 찌워 전반적으로 운동을 함에 있어 위험성을 낮추고 지속적인 스트렝스를 초점으로하는 전반적인 과정</span>이다.
+    <br><br>
+    성인이 된 시점 173 cm의 키에 60 kg의 몸무게로 나름 3대 300이라는 자부심이 있었지만 정체기를 겪고 있는 시기였다. 가장 큰 문제는 무엇을 어떻게 먹어야 꾸준히 살을 찌울 수 있는지 몰랐기에 몸무게를 조절할 수 없었다.
+    <br><br>
+    보편적인 많이 먹고 자주 먹는 방식은 허점이 많았고 소화가 잘 되지 않는 체질에 맞이 않았고, 몇년간의 시도 끝에 탄수화물, 단백질과 같은 영양소를 일정 주기로 하루 용량만큼 꾸준히 밀어넣어주기만 하면 된다는 것을 알게되었다.
+    <br><br>
+    또한 벌크업에 있어 중요한 운동이라는 요소를 놓치게 된다면 살크업이라는 길에 빠질 수 있었고, 이를 위해 몸무게가 증가함에 따라 운동 무게를 증가시키는 방식으로 운동을 주 4회이상 꾸준히 진행해주었다. 
+    <br><br>
+    벌크업 이후 <span style="background-color: gray; color: white;">60 kg의 몸무게는 78 kg 로 거진 20 kg을 찌웠고</span>, 이 과정에서 얻게 된 것들이 있다.
+  </blockquote>
+</div>
+
+<div style="font-size: 18px; line-height: 1.6;">
+  <ul>
+    <li>
+    일정한 양의 식사를 위해서는 먹는 것들을 매번 확인하는 과정이 필요하고, 꾸준히 진행하기 위해서는 하루 일정을 수시로 파악해야한다. 이 과정은 자기관리의 초석이 되며, 건강한 식사를 위한 습관을 만들어준다.
+    </li>
+    <li>
+    꾸준한 관리가 들어간 식사는 규칙적인 식습관 패턴에 대한 분석과 통계집계가 가능하여 여러 지병에 대한 대비가 가능하고, 규칙적인 운동은 대부분의 지병을 방지해줄 뿐 아니라 치료하는데에도 큰 도움이 된다. (특히 몸살)
+    </li>
+    <li>
+    체격이 다소 외소하고 몸이 가벼웠던 입장에서 살이찌지 않는 체질로 인해 트라우마를 가지고 있었다. 체격이 커지면서 삶에 있어 최소한으로 필수적인 외적인 자신감이 충족되고, 일상속 행동에 있어 제약이 많이 사라진다. (대표적으로 몸을 쓰는 일)
+    </li>
+    <li>
+    <span style="background-color: pink; color: black;">Bulk up 과정을 통해 자신감이 오르고, 지병으로부터의의 보호를 통해 효율적으로 건강을 유지하게 되었다.</span>
+    </li>
+  </ul>
+</div>
+
+## <span style="font-size: 48px; font-weight: bold;">1RM</span>
+
+<div style="font-size: 16px; line-height: 1.6; color: gray;">
+  <blockquote>
+    <br>💡 1RM 이란 <span style="background-color: gray; color: white;">대표적인 3대 운동 벤치프레스, 데드리프트, 스쿼트의 한 번 들기위한 최대 중량을 의미하며, 위험을 수반한 폭발적인 스트렝스에 초점을 맞추는 전반적인 과정</span>이다.
+    <br><br>
+    벌크업을 통해 살을 건강하게 찌우는 과정에서는 식사 습관을 중점으로 진행하여 몸의 겉 틀을 부풀리는 과정이라면, 1RM 에서는 운동 습관에 중점을 두어 부풀은 몸의 속을 채우는 것을 목표로 한다.
+    <br><br>
+    1RM 에서는 매 운동시마다 최대 중량 운동을 진행하기 때문에 부상의 위험이 크고, 스트랩, 벨트를 필수로 하여 체계적으로 무게를 증량하는 운동 계획을 수립해야 한다. (특히 혼자서는)
+    <br><br>
+    무엇보다 무게만을 늘리는 과정이 아닌 무게를 늘리기 위해 사용하지 않던 다양한 근육들을 활성화하고, 효율적으로 힘을 주고 빼는 과정을 배워야 하기 때문에 많은 경험과 지식을 동반한다.
+    <br><br>
+    1RM 과정을 통해 <span style="background-color: gray; color: white;">3대 300이었던 과거와 비교하여 현실적인 목표인 3대 400을 달성</span>하였고, 이 과정에서 무게에 적응하기 위해 몸의 뼈대 자체가 넓어지면서 역삼각형 체형이 만들어졌다. 
+  </blockquote>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231프레임2.jpg" alt="운동" style="border: 2px solid #000; border-radius: 5px; padding: 5px; max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231프레임1.jpg" alt="운동" style="border: 2px solid #000; border-radius: 5px; padding: 5px; max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+</div>
+
+<span style="color: white; font-weight: bold;">좌측 1RM 전, 우측 1RM 후 모습</span>
+
+<div style="font-size: 18px; line-height: 1.6;">
+  <ul>
+    <li>
+    다양한 근육을을 활성화하여 순간적으로 폭발적인 힘을 내는 운동은 육체적인 한계를 넘어서는 과정이 필요하다. 이러한 과정은 사고력 특히 새로운 아이디어를 도출하는 창의력을 증진시키는데 많은 도움이 되었다. (연구자로서)
+    </li>
+    <li>
+    집요하고 지나치게 근육을 찢는 과정은 아이러니하게도 체력을 크게 증진시킨다. 특히 이전에는 빨리 포기했을 상황에 대해 더 끈기를 가지고 지속하여 결과를 도출해내는 '한 발만 더' 가 가능해진다.
+    </li><li>
+    과도한 무게에 익숙해지기 위해 몸의 뼈대 자체가 변형되어 몸의 프레임이 변한다. 이 과정을 통해 만들어진 역삼각형 프레임은 무엇보다 옷핏이 좋아지게 되고, 어깨대비 얼굴의 비율을 작게하여 좋은 비율을 만들어준다.
+    </li><li>
+    <span style="background-color: pink; color: black;">1RM 과정을 통해 자체적인 몸의 프레임이 변하여 전체적인 비율이 좋아지고, 폭넓은 사고가 가능하여 지속적이고 끈기있는 목표를 추구할 수 있게 되었다.</span>
+    </li>
+  </ul>
+</div>
+
+## <span style="font-size: 48px; font-weight: bold;">Diet & Cutting</span>
+
+<div style="font-size: 16px; line-height: 1.6; color: gray;">
+  <blockquote>
+    <br>💡 Diet & Cutting 이란 <span style="background-color: gray; color: white;">몸의 겉 틀을 만들고 속을 채웠으니, 바깥에서부터 조각을 내어 채워진진 속을 드러내는 것을 헬스에서는 Cutting 이자 Diet</span>과정이라고 한다.
+    <br><br>
+    이 과정을 위해서는 운동에 무산소와 유산소 개념을 나누어 진행해주어야 하며, 식단을 관리함에 있어 철저하게 영양소와 양을 제한하여야 한다. 사실 앞선 과정에서 더 많은 제약조건이 달리기 때문에 가장 힘들다.
+    <br><br>
+    기존에 1시간 정도의 무산소 운동을 진행해주었다면, 이후 30분정도 유산소 운동을 진행해주어야 하기 때문에 육체적으로도 더 지치고 오랜시간을 운동에 투자해야 한다. 때문에 일적인 측면에서도 지장이 생기게 된다.
+    <br><br>
+    식단 속 영양소와 양을 철저하게 제한하기 때문에 많은 양의 스트레스가 쌓이고, 기운이 많지 않아 기존보다 운동 효율이 떨어지게 된다. 이 과정에서 최대 중량은 줄지만 근육을 최대한 유지하여 체지방이 줄기 때문에 근육이 선명해진다.
+    <br><br>
+    하루 2시간이상을 운동으로 소모하고, 햇반 탄수화물 180g, 닭가슴살 단백질 160g 식단을 통해 총 6개월간의 Cutting & Diet 과정을 통해 <span style="background-color: gray; color: white;">12 % 의 체지방률과 60 % 의 골격근률로 마무리</span>하게 되었다.
+  </blockquote>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 20px;">
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231러닝1.jpg" alt="이미지1" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231러닝2.jpg" alt="이미지2" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231러닝3.jpg" alt="이미지3" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231러닝4.jpg" alt="이미지1" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231러닝5.jpg" alt="이미지2" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231러닝6.jpg" alt="이미지3" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+</div>
+
+<span style="color: white; font-weight: bold;">6개월간의 유산소 (러닝머신 & 운동장)</span>
+
+<div style="font-size: 18px; line-height: 1.6;">
+<ul>
+  <li>
+    인간의 3대 욕구를를 억제하는 과정이 필요하기 때문에 극도의 저텐션을 유지하게 된다. 이 과정을 통해 번아웃, 우울증보다 더 힘든것들이 존재할 수 있다는 사실을 깨닫게 되고 치유된다.
+  </li>
+  <li>
+    3대 욕구가 충족되지 않아, 극도의 스트레스를 관리하기 위해 무엇보다 이유없는 화를 참아야 한다. 이를 통해 대부분의 상황에서의 스트레스를 관리하는 효율적인 방식을 얻게 되고, 감정에 의해해 영향받는 일을 최대한 줄일 수 있게 된다.
+  </li>
+  <li>
+    몸이 가벼워지고 관절이 건강해진다. 무엇보다 몸에 근육 선들이 선명해지고 체형이 각져지고, 얼굴의 턱선이 생기면서 가장 이상적인 다이어트의 형태가 된다.  
+  </li>
+  <li>
+    유산소 운동(여기에서는 러닝을 예시로)은 몸속 남은 노폐물들을 전부 제거해주어 가벼운 몸상태를 만들어주고, 그 과정에서 사고하는 생각을 강하게 잡아주면서 자존감을 올려준다.
+  </li>
+  <li>
+    <span style="background-color: pink; color: black;">Diet & Cutting 과정을 통해해 내부 노폐물을 제거해주어 생각의 뿌리를 강하게 만들어줌으로써 자존감을 올려주고, 극도의 결핍을 통해 스트레스의 효율적인 관리를 가능하게 만들어주었다다.</span>
+  </li>
+</ul>
+</div>
+
+## <span style="font-size: 48px; font-weight: bold;">Body profile</span>
+
+<div style="font-size: 16px; line-height: 1.6; color: gray;">
+  <blockquote>
+    <br>💡 <span style="background-color: gray; color: white;">헬스의 꽃은 Body profile 혹은 Competition</span> 이라고 한다. 일을 하는 직장인으로서 8년간의 헬스경험을 바탕으로 운동을 해봤다라고 이야기할 수 있는 가장 효율적인 방법법은 바로 Body profile이라고 생각하였다.
+    <br><br>
+    몸의 체형 자체를 바꿔보고, 남들이 인정할 만한 무게를 들어보고, 몸을 조각도 내보았고 이제는 그 몸을 조금 더 세세하게 다듬어 기록으로 남기기 위한 과정이다.
+    <br><br>
+    사실 Body profile 이라는 것에서 운동이 차지하는 비율은 그렇게 크지 않다. 외적으로 신경쓰고 준비하고 계획해야 하는것들이 많기때문에 인생에서 기회가 그리 많지 않고 취업 이전 마지막 기회가 될 것이라고 판단했다.
+    <br><br>
+    프로그래밍 업계에 발을 들이고 있다보니 운동에는 관심이 있는 사람들을 찾기가 어려울 정도이다. 실제로 Body profile 을 준비하면서 준비해야하는 과정중 '컨셉'을 선택해야하였는데 개발자라는 컨셉을 아무리 찾아봐도 보이지 않을 정도였다.
+    <br><br>
+    8년간의 운동 경험을 바탕으로 준비하였으며, 앞으로는 오직 건강을 위한 헬스를 진행할 것이며 다른 운동에 흥미를 가져볼 예정이다. 
+  </blockquote>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 20px;">
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231몸1.jpg" alt="이미지1" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231몸2.jpg" alt="이미지2" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231몸3.jpg" alt="이미지3" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231몸4.jpg" alt="이미지1" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231몸5.jpg" alt="이미지2" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231몸6.jpg" alt="이미지3" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+</div>
+
+<span style="color: white; font-weight: bold;">바디프로필 준비 과정 (좌상부터 우하단까지 타임라인)</span>
+
+<div style="font-size: 18px; line-height: 1.6;">
+<ul>
+  <li>
+    Body profile 을 위해서는 스튜디오 예약과 더불어 촬영 컨셉과 포즈를 구상해야 한다. 이 과정만 몇주가 걸리며, 2시간동안 구상한 포즈를 진행해야하기 때문에 큰 체력소모를 요구한다.
+  </li>
+  <li>
+    이후 태닝과 왁싱을 시기에 맞게 진행해야하며, 몸을 잘 관리해주어야 한다. 특히 왁싱은 익숙해지지 않을만큼 큰 고통을 10분여간 참아야 한다.
+  </li>
+  <li>
+    촬영 1주일 전부터는 식단을 끼니마다 체계적으로 변화시키고 하루종일 운동을 진행해주어야 한다. 특히 전날 사우나와 단수 과정은 두 번은 경험하기 힘들 경험이었다.
+  </li>
+</ul>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231바프5년차1.jpg" alt="운동" style="border: 2px solid #000; border-radius: 5px; padding: 5px; max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="background-color: black; display: flex; align-items: center; justify-content: center;">
+    <img src="/images/1231바프5년차2.jpg" alt="운동" style="border: 2px solid #000; border-radius: 5px; padding: 5px; max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+</div>
+
+<span style="color: white; font-weight: bold;">Body profile 첫 시도 5년차</span>
+
+<div style="font-size: 18px; line-height: 1.6;">
+
+  <ul>
+    <li>사실 두 번의 Body profile 을 경험하였다. 아직 Bulk up 도 완성되지 않았던 5년차 시기의 촬영 결과이다.</li>
+    <li>이때는 체지방을 빼기 위해서 지나치게 몸무게를 줄였던 탓에 프레임 자체가 발달하지 않은 상황이었고, 역삼각형 체형도 완성되지 않았던 시기이다.</li>
+    <li>이때의 경험 덕분에 두 번째 Body profile 에서는 훨씬 효율적으로 준비할 수 있었고, 대비 비교결과를 한눈에 볼 수 있었다.</li>
+  </ul>
+
+</div>
+
+<img src="/images/준비중.png" alt="준비중 (2주걸림)" style="border: 2px solid #000; border-radius: 5px; padding: 5px;font-weight: bold;">
+
+<span style="color: white; font-weight: bold;">Body profile 두 번째 시도 8년차</span>
+
+<div style="font-size: 18px; line-height: 1.6;">
+
+  <ul>
+    <li>2016년 첫 헬스를 시작하여, 2020-2022년 Bulk up 과정을 거치고, 2022-2024년 1RM 을 달성하고, 6개월간의 Diet & Cutting 을 통해 다듬은은 몸이다.</li>
+    <li>체지방 12 %, 골격근률 60 % 로 마무리하였고, 안경을 가미하여 개발자의 컨셉으로 촬영을 마무리하였다.</li>
+    <li>사실 그동안 근손실, 식단으로 인해 적지 않은 스트레스를 받은 경험이 있었고, 목표를 달성한 지금에서야 이제는 맘 편하게 운동을 할 수 있을 것 같다.</li>
+    <li>새로운 운동을 찾든, 더 높은 목표를 오랜기간을 잡든 앞으로 당분간은 '건강' 을 위한 헬스를 진행할 예정이다.</li>
+  </ul>
+
+</div>

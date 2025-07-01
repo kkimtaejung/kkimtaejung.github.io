@@ -1,0 +1,101 @@
+---
+---
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html %}
+    {% include_cached masthead.html %}
+
+    <div class="initial-content">
+      {{ content }}
+    </div>
+
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
+      </div>
+    {% endif %}
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>
+
+<audio id="background-music" autoplay loop>
+  <source src="/images/노래아마추어 [이승철].mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const music = document.getElementById('background-music');
+
+    // 이미 초기화되었는지 확인
+    if (music.dataset.initialized === "true") return;
+    music.dataset.initialized = "true"; // 중복 실행 방지 플래그 설정
+
+    // 세션 내 이전 재생 위치 가져오기
+    const savedTime = sessionStorage.getItem('music-current-time');
+
+    if (savedTime) {
+      // 세션 내 재생 위치 복원
+      music.currentTime = parseFloat(savedTime);
+    }
+
+    // 음악 재생
+    music.play();
+
+    // 현재 재생 위치를 세션에 저장
+    music.addEventListener('timeupdate', function () {
+      sessionStorage.setItem('music-current-time', music.currentTime);
+    });
+
+    // 사용자가 페이지를 떠날 때 재생 상태 유지
+    window.addEventListener('beforeunload', function () {
+      sessionStorage.setItem('music-current-time', music.currentTime);
+    });
+
+    // 영상 재생 시 음악 멈춤, 영상 중지 시 음악 재생
+    const videos = document.querySelectorAll('video');
+    videos.forEach(video => {
+      video.addEventListener('play', function () {
+        if (!music.paused) {
+          music.pause(); // 음악 멈춤
+        }
+      });
+
+      video.addEventListener('pause', function () {
+        if (music.paused) {
+          music.play(); // 음악 재생
+        }
+      });
+
+      video.addEventListener('ended', function () {
+        if (music.paused) {
+          music.play(); // 영상이 종료되면 음악 재생
+        }
+      });
+    });
+  });
+</script>
+
+

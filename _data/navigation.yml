@@ -1,0 +1,34 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /categories/research/
+  - title: "Startup"
+    url: /categories/startup/
+  - title: "Exercise"
+    url: /categories/exercise/
+  - title: "Daily"
+    url: /categories/daily/
+
+#docs:
+#  - title: "대목차"
+#    children:
+#     - title: "Category"
+#        url: /categories/
+#      - title: "Tag"
+#        url: /tags/
+# - title: "About"
+#   url: https://mmistakes.github.io/minimal-mistakes/about/
+# - title: "Sample Posts"
+#   url: /year-archive/
+# - title: "Sample Collections"
+#   url: /collection-archive/
+# - title: "Sitemap"
+#   url: /sitemap/
+
+counts:
+  - title: "카테고리"
+    use: true
+  - title: "태그"
+    use: true
